@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+
+#main-content h1{
+    font-size: 45px;
+}
+
+#header-nav{
+    border-radius: 0;
+    border-bottom: 1px solid black;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+
+}
+
+
+.navbar-brand h1{
+    margin:  0px;
+    color: black;
+}
+
+.navbar-brand{
+    height: auto;
+}
+
+.navbar-default .navbar-toggle{
+    color: black;
+    border-color: black;
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: black;
+}
+
+#nav-list li a{
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+    margin: 0px;
+}
+
+.navbar-toggle{
+    top: 10px;
+}
+
+#header-nav{
+    background-color: pink;
+}
+
+.food{
+    color: black;
+    background-color: pink;
+    height: 1000px;
+    border: 1px solid black;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: justify;
+    overflow: auto;
+}
+
+
+.food h2{
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    border: black 1px;
+}
+
+
+#main-content{
+    margin: 20px;
+}
